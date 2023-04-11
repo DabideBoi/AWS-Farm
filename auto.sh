@@ -6,4 +6,4 @@ echo "$ts" > $project_dir/main.txt
 git -C $project_dir pull
 git -C $project_dir add .
 git -C $project_dir commit -m "auto commit - $ts"
-git -C $project_dir push origin master --force
+git -C $project_dir push origin main --force
